@@ -1,15 +1,60 @@
-body{
+*{
   margin:0;
   padding:0;
-  background:#ffffff;
-  color:#111827;
-  font-family:Inter,sans-serif;
+  box-sizing:border-box;
 }
 
-a{
-  text-decoration:none;
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+font-family:Inter,sans-serif;
+
+background:
+radial-gradient(circle at top,#2563eb22,transparent 35%),
+radial-gradient(circle at bottom right,#7c3aed22,transparent 35%),
+#050816;
+
+color:white;
+
+overflow-x:hidden;
+
+}
+
+section{
+
+padding:120px 8%;
+
 }
 
 button{
-  font-family:inherit;
+
+cursor:pointer;
+
+transition:.35s;
+
+font-family:inherit;
+
+}
+
+button:hover{
+
+transform:translateY(-5px);
+
+}
+
+::-webkit-scrollbar{
+
+width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#2563eb;
+
+border-radius:20px;
+
 }
