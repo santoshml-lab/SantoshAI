@@ -2,29 +2,56 @@ import "../styles/projects.css";
 
 export default function ProjectsSection() {
 
-  const projects = [
+const projects=[
 
-    {
-      icon:"🚀",
-      title:"ProjectPilot AI",
-      desc:"Generate Full Stack Projects, APIs, Databases and Production Ready Code."
-    },
+{
+icon:"🤖",
+title:"ProjectPilot AI",
+desc:"Generate Full Stack Projects, Database Schemas, APIs and Production Ready Code using AI.",
+tech:"React • Supabase • Gemini AI",
+live:"#",
+github:"#"
+},
 
-    {
-      icon:"🎤",
-      title:"InterviewAI",
-      desc:"AI Interview Assistant with Resume Analysis and Mock Interviews."
-    },
+{
+icon:"🎤",
+title:"InterviewAI",
+desc:"AI Interview Assistant with Resume Analysis, ATS Score and Mock Interviews.",
+tech:"React • Python • AI",
+live:"#",
+github:"#"
+},
 
-    {
-      icon:"🧠",
-      title:"More Coming...",
-      desc:"Building AI products that solve real-world problems."
-    }
+{
+icon:"💼",
+title:"BizPilot AI",
+desc:"AI Business Management Platform for startups with automation and analytics.",
+tech:"React • AI • Dashboard",
+live:"#",
+github:"#"
+},
 
-  ];
+{
+icon:"📝",
+title:"ExamPanic",
+desc:"AI-powered Exam Preparation Platform with smart revision and practice tools.",
+tech:"React • AI • Education",
+live:"#",
+github:"#"
+},
 
-  return(
+{
+icon:"📚",
+title:"NEET Learning Hub",
+desc:"AI learning platform for NEET students with notes, MCQs and mock tests.",
+tech:"React • FastAPI • Groq AI",
+live:"#",
+github:"#"
+}
+
+];
+
+return(
 
 <section className="projects">
 
@@ -32,21 +59,33 @@ export default function ProjectsSection() {
 
 <div className="projects-grid">
 
-{projects.map((item,index)=>(
+{projects.map((project,index)=>(
 
 <div className="project-card" key={index}>
 
 <div className="project-icon">
-{item.icon}
+{project.icon}
 </div>
 
-<h3>{item.title}</h3>
+<h3>{project.title}</h3>
 
-<p>{item.desc}</p>
+<p>{project.desc}</p>
 
-<button>
-View Project →
-</button>
+<span className="tech">
+{project.tech}
+</span>
+
+<div className="project-buttons">
+
+<a href={project.live}>
+<button>🌐 Live</button>
+</a>
+
+<a href={project.github}>
+<button>💻 GitHub</button>
+</a>
+
+</div>
 
 </div>
 
@@ -56,6 +95,6 @@ View Project →
 
 </section>
 
-  );
+);
 
 }
