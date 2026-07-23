@@ -5,6 +5,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 import GithubStats from "../components/GithubStats";
+import Achievements from "../components/Achievements";
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Skills />
       <Footer />
       <GithubStats />
+      <Achievements />
     </>
 
   );
