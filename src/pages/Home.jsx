@@ -6,6 +6,7 @@ import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 import GithubStats from "../components/GithubStats";
 import Achievements from "../components/Achievements";
+import Contact from "../components/Contact";
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Footer />
       <GithubStats />
       <Achievements />
+      <Contact />
     </>
 
   );
