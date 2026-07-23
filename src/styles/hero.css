@@ -1,6 +1,6 @@
 .hero{
 
-min-height:85vh;
+min-height:92vh;
 
 display:flex;
 
@@ -12,21 +12,27 @@ align-items:center;
 
 text-align:center;
 
-padding:80px 20px;
+padding:120px 20px;
 
-background:linear-gradient(180deg,#ffffff,#f8fafc);
+background:
+radial-gradient(circle at top,#60a5fa22,transparent 40%),
+linear-gradient(180deg,#ffffff,#f8fafc);
+
+overflow:hidden;
 
 }
 
 .hero-badge{
 
-background:#dbeafe;
+padding:10px 22px;
+
+background:#eff6ff;
 
 color:#2563eb;
 
-padding:10px 20px;
+border:1px solid #bfdbfe;
 
-border-radius:30px;
+border-radius:999px;
 
 font-weight:700;
 
@@ -36,11 +42,15 @@ margin-bottom:30px;
 
 .hero h1{
 
-font-size:72px;
+font-size:88px;
 
 font-weight:900;
 
-line-height:1.1;
+line-height:1.05;
+
+letter-spacing:-3px;
+
+max-width:1000px;
 
 color:#111827;
 
@@ -50,15 +60,15 @@ margin-bottom:25px;
 
 .hero p{
 
-font-size:22px;
+font-size:24px;
 
-max-width:750px;
+max-width:760px;
 
 color:#6b7280;
 
-line-height:1.7;
+line-height:1.8;
 
-margin-bottom:45px;
+margin-bottom:50px;
 
 }
 
@@ -72,11 +82,11 @@ gap:20px;
 
 .primary-btn{
 
-padding:16px 34px;
+padding:18px 40px;
 
 border:none;
 
-border-radius:14px;
+border-radius:16px;
 
 background:#2563eb;
 
@@ -88,29 +98,27 @@ font-weight:700;
 
 cursor:pointer;
 
-transition:.3s;
+transition:.35s;
+
+box-shadow:0 15px 35px rgba(37,99,235,.25);
 
 }
 
 .primary-btn:hover{
 
-background:#1d4ed8;
-
-transform:translateY(-3px);
+transform:translateY(-6px);
 
 }
 
 .secondary-btn{
 
-padding:16px 34px;
+padding:18px 40px;
 
-border:none;
+border-radius:16px;
 
-border-radius:14px;
+border:1px solid #d1d5db;
 
-background:#f3f4f6;
-
-color:#111827;
+background:white;
 
 font-size:18px;
 
@@ -118,14 +126,36 @@ font-weight:700;
 
 cursor:pointer;
 
-transition:.3s;
+transition:.35s;
 
 }
 
 .secondary-btn:hover{
 
-background:#e5e7eb;
+transform:translateY(-6px);
 
-transform:translateY(-3px);
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:52px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
 
 }
