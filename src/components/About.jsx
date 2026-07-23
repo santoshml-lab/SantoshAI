@@ -13,7 +13,7 @@ export default function About() {
         <h2>
           Hi, I'm
           <br />
-          Santosh Kumar
+          Santosh Yadav
         </h2>
 
         <p>
