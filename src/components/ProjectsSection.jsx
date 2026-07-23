@@ -81,13 +81,25 @@ return(
 
 <div className="project-buttons">
 
-<a href={project.live}>
-<button>🌐 Live</button>
+<a
+  href={project.live}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>🌐 Live Demo</button>
 </a>
 
-<a href={project.github}>
-<button>💻 GitHub</button>
+
+
+<a
+  href={project.github}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>💻 GitHub</button>
 </a>
+
+
 
 </div>
 
