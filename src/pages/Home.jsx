@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import ProjectsSection from "../components/ProjectsSection";
 
 export default function Home() {
 
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <ProjectsSection />
     </>
 
   );
