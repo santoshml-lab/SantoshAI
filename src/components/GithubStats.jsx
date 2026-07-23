@@ -6,7 +6,6 @@ const stats=[
 
 {number:"6+",title:"AI Projects"},
 
-{number:"16",title:"Age"},
 
 {number:"100%",title:"Passion"},
 
