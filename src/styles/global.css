@@ -1,21 +1,25 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,sans-serif;
 }
 
 html{
-  scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
 
-font-family:Inter,sans-serif;
+background:#050816;
 
-background:
-radial-gradient(circle at top,#2563eb22,transparent 35%),
-radial-gradient(circle at bottom right,#7c3aed22,transparent 35%),
-#050816;
+background-image:
+
+radial-gradient(circle at 20% 10%,rgba(37,99,235,.25),transparent 30%),
+
+radial-gradient(circle at 80% 90%,rgba(124,58,237,.25),transparent 30%),
+
+linear-gradient(180deg,#050816,#0f172a);
 
 color:white;
 
@@ -26,6 +30,8 @@ overflow-x:hidden;
 section{
 
 padding:120px 8%;
+
+position:relative;
 
 }
 
@@ -45,15 +51,29 @@ transform:translateY(-5px);
 
 }
 
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+}
+
 ::-webkit-scrollbar{
 
 width:8px;
 
 }
 
+::-webkit-scrollbar-track{
+
+background:#050816;
+
+}
+
 ::-webkit-scrollbar-thumb{
 
-background:#2563eb;
+background:#3b82f6;
 
 border-radius:20px;
 
