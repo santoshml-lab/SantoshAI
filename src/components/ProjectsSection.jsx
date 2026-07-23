@@ -4,8 +4,6 @@ export default function ProjectsSection() {
 
 const projects=[
 
-const projects = [
-
 {
 icon:"🤖",
 title:"ProjectPilot AI",
