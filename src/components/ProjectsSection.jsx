@@ -4,52 +4,56 @@ export default function ProjectsSection() {
 
 const projects=[
 
+const projects = [
+
 {
 icon:"🤖",
 title:"ProjectPilot AI",
-desc:"Generate Full Stack Projects, Database Schemas, APIs and Production Ready Code using AI.",
+desc:"Generate Full Stack Projects using AI.",
 tech:"React • Supabase • Gemini AI",
-live:"#",
-github:"#"
+live:"https://project-pilot-ai-react-2w88.vercel.app/",
+github:"https://github.com/santoshml-lab/ProjectPilotAI-React"
 },
 
 {
 icon:"🎤",
 title:"InterviewAI",
-desc:"AI Interview Assistant with Resume Analysis, ATS Score and Mock Interviews.",
+desc:"AI Interview Assistant.",
 tech:"React • Python • AI",
-live:"#",
-github:"#"
+live:"https://interview-pilot-ai-indol.vercel.app/",
+github:"https://github.com/santoshml-lab/InterviewPilot-AI"
 },
 
 {
 icon:"💼",
 title:"BizPilot AI",
-desc:"AI Business Management Platform for startups with automation and analytics.",
-tech:"React • AI • Dashboard",
-live:"#",
-github:"#"
+desc:"AI Business Management Platform.",
+tech:"React • AI",
+live:"https://bizpilot-ai-gold.vercel.app/",
+github:"https://github.com/santoshml-lab/bizpilot-ai"
 },
 
 {
 icon:"📝",
 title:"ExamPanic",
-desc:"AI-powered Exam Preparation Platform with smart revision and practice tools.",
-tech:"React • AI • Education",
-live:"#",
-github:"#"
+desc:"AI Exam Preparation Platform.",
+tech:"React • AI",
+live:"https://modulardesign-alpha.vercel.app/",
+github:"https://github.com/santoshml-lab/Modulardesign"
 },
 
 {
 icon:"📚",
 title:"NEET Learning Hub",
-desc:"AI learning platform for NEET students with notes, MCQs and mock tests.",
+desc:"AI Learning Platform.",
 tech:"React • FastAPI • Groq AI",
-live:"#",
-github:"#"
+live:"https://neet-urur.vercel.app/",
+github:"https://github.com/santoshml-lab/Neet"
 }
 
 ];
+
+
 
 return(
 
