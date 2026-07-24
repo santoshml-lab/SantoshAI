@@ -1,4 +1,5 @@
 import "../styles/hero.css";
+import profile from "../assets/profile.jpg";
 
 export default function Hero() {
 
@@ -32,6 +33,11 @@ export default function Hero() {
         </button>
 
       </div>
+      <img
+  src={profile}
+  alt="Santosh Yadav"
+  className="profile-image"
+/>
 
     </section>
 
