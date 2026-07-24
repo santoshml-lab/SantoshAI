@@ -33,6 +33,11 @@ export default function Hero() {
         </div>
 
       </div>
+      <div className="hero-info">
+  <span>📍 India</span>
+  <span>🤖 AI Developer</span>
+  <span>💼 Open to Work</span>
+</div>
 
       <div className="hero-right">
         <img
