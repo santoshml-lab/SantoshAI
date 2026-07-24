@@ -15,6 +15,7 @@ github:"https://github.com/santoshml-lab/ProjectPilotAI-React"
 },
 
 {
+image: "/images/interviewai.png"  
 icon:"🎤",
 title:"InterviewAI",
 desc:"AI Interview Assistant.",
