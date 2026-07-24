@@ -5,6 +5,7 @@ export default function ProjectsSection() {
 const projects=[
 
 {
+image: "/images/projectpilot.png",  
 icon:"🤖",
 title:"ProjectPilot AI",
 desc:"Generate Full Stack Projects using AI.",
@@ -64,6 +65,11 @@ return(
 {projects.map((project,index)=>(
 
 <div className="project-card" key={index}>
+<img
+  src={project.image}
+  alt={project.title}
+  className="project-image"
+/>  
 
 <div className="project-icon">
 {project.icon}
