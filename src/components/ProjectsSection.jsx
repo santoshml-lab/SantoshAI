@@ -41,7 +41,16 @@ tech:"React • AI",
 live:"https://modulardesign-alpha.vercel.app/",
 github:"https://github.com/santoshml-lab/Modulardesign"
 },
-
+  
+{
+  image: "/images/salespilot.png",
+  icon: "🚀",
+  title: "SalesPilot AI",
+  desc: "AI-powered CRM with Dashboard, Analytics, Leads, Deals, Reports, Calendar and AI Assistant.",
+  tech: "React • Supabase • Recharts • AI",
+  live: "https://sales-pilot-ai-teal.vercel.app/",
+  github: "https://github.com/santoshml-lab/sales-pilot-ai"
+},
 {
 icon:"📚",
 title:"NEET Learning Hub",
