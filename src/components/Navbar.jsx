@@ -1,9 +1,9 @@
 import "../styles/navbar.css";
 
 export default function Navbar() {
+  const resumeUrl = "/Santosh_Yadav_Resume1.pdf";
 
   return (
-
     <nav className="navbar">
 
       <div className="logo">
@@ -14,20 +14,31 @@ export default function Navbar() {
 
         <a href="/">Home</a>
 
-        <a href="#">Projects</a>
+        <a href="#projects">Projects</a>
 
-        <a href="#">About</a>
+        <a href="#about">About</a>
 
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
+
+        <a
+          href={resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          📄 Resume
+        </a>
 
       </div>
 
-      <button className="nav-btn">
-        View Projects
-      </button>
+      <a
+        href={resumeUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="nav-btn"
+      >
+        📄 View Resume
+      </a>
 
     </nav>
-
   );
-
 }
