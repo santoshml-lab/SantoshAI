@@ -60,7 +60,7 @@ desc:"AI Learning Platform.",
 tech:"React • FastAPI • Groq AI",
 live:"https://neet-urur.vercel.app/",
 github:"https://github.com/santoshml-lab/Neet"
-}
+
 
 ];
   {
@@ -70,7 +70,9 @@ github:"https://github.com/santoshml-lab/Neet"
   desc: "AI-powered customer support platform that helps manage customer complaints, create support tickets and streamline issue resolution.",
   tech: "React • FastAPI • AI • Vercel",
   live: "https://support-flow-ai-lake.vercel.app/",
-  github: "YOUR_SUPPORTFLOW_GITHUB_LINK"
+  github: "https://github.com/santoshml-lab/SupportFlow-AI"
+
+    
 },
 
 {
