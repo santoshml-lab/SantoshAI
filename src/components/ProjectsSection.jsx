@@ -25,6 +25,7 @@ github:"https://github.com/santoshml-lab/InterviewPilot-AI"
 },
 
 {
+  image: "/images/bizpilot.png",
 icon:"💼",
 title:"BizPilot AI",
 desc:"AI Business Management Platform.",
