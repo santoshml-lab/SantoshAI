@@ -63,6 +63,25 @@ github:"https://github.com/santoshml-lab/Neet"
 }
 
 ];
+  {
+  image: "/images/supportflow.png",
+  icon: "🛟",
+  title: "SupportFlow AI",
+  desc: "AI-powered customer support platform that helps manage customer complaints, create support tickets and streamline issue resolution.",
+  tech: "React • FastAPI • AI • Vercel",
+  live: "https://support-flow-ai-lake.vercel.app/",
+  github: "YOUR_SUPPORTFLOW_GITHUB_LINK"
+},
+
+{
+  image: "/images/finpilot.png",
+  icon: "💰",
+  title: "FinPilot AI",
+  desc: "AI-powered personal finance platform for managing transactions, tracking financial activity and generating intelligent financial insights.",
+  tech: "React • FastAPI • Supabase • Groq • Recharts",
+  live: "YOUR_FINPILOT_LIVE_LINK",
+  github: "YOUR_FINPILOT_GITHUB_LINK"
+},
 
 
 
