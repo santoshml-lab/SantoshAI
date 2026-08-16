@@ -75,11 +75,17 @@ return(
 {projects.map((project,index)=>(
 
 <div className="project-card" key={index}>
-<img
-  src={project.image}
-  alt={project.title}
-  className="project-image"
-/>  
+{project.image && (
+  <img
+    src={project.image}
+    alt={project.title}
+    className="project-image"
+  />
+)}
+  
+  
+  
+
 
 <div className="project-icon">
 {project.icon}
