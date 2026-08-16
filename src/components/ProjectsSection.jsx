@@ -34,7 +34,7 @@ github:"https://github.com/santoshml-lab/bizpilot-ai"
 },
 
 {
-icon:"📝",
+image: "/images/exampanic.png",
 title:"ExamPanic",
 desc:"AI Exam Preparation Platform.",
 tech:"React • AI",
@@ -52,6 +52,7 @@ github:"https://github.com/santoshml-lab/Modulardesign"
   github: "https://github.com/santoshml-lab/sales-pilot-ai"
 },
 {
+  image: "/images/neet-learning-hub.png",
 icon:"📚",
 title:"NEET Learning Hub",
 desc:"AI Learning Platform.",
