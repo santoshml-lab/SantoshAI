@@ -1,93 +1,178 @@
-.navbar{
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 
-position:fixed;
+  width: 92%;
+  max-width: 1400px;
 
-top:20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-left:50%;
+  padding: 18px 35px;
 
-transform:translateX(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
 
-width:92%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
 
-display:flex;
+  z-index: 999;
 
-justify-content:space-between;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
 
-align-items:center;
+/* LOGO */
 
-padding:18px 35px;
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  white-space: nowrap;
+}
 
-background:rgba(255,255,255,.05);
+.logo span {
+  color: #60a5fa;
+}
 
-backdrop-filter:blur(20px);
+/* NAV LINKS */
 
-border:1px solid rgba(255,255,255,.08);
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
 
-border-radius:22px;
+.nav-links a {
+  color: #cbd5e1;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  white-space: nowrap;
+}
 
-z-index:999;
+.nav-links a:hover {
+  color: white;
+}
 
-box-shadow:0 15px 40px rgba(0,0,0,.3);
+/* RESUME BUTTON */
+
+.nav-btn {
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+
+  color: white;
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 15px;
+
+  white-space: nowrap;
+
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.35);
+
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(37, 99, 235, 0.5);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+  .navbar {
+    width: 94%;
+    padding: 15px 22px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .nav-btn {
+    padding: 11px 17px;
+    font-size: 13px;
+  }
 
 }
 
-.logo{
 
-font-size:30px;
+/* =========================================
+   MOBILE
+========================================= */
 
-font-weight:900;
+@media (max-width: 700px) {
 
-color:white;
+  .navbar {
+    top: 12px;
+    width: calc(100% - 24px);
+
+    padding: 13px 16px;
+
+    border-radius: 18px;
+
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  /* Hide normal navigation on small screens
+     to prevent overlap */
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-btn {
+    padding: 10px 15px;
+
+    border-radius: 11px;
+
+    font-size: 12px;
+  }
 
 }
 
-.logo span{
 
-color:#60a5fa;
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
 
-}
+@media (max-width: 400px) {
 
-.nav-links{
+  .navbar {
+    padding: 11px 13px;
+  }
 
-display:flex;
+  .logo {
+    font-size: 20px;
+  }
 
-gap:35px;
-
-}
-
-.nav-links a{
-
-color:#cbd5e1;
-
-font-weight:600;
-
-transition:.3s;
-
-}
-
-.nav-links a:hover{
-
-color:white;
-
-}
-
-.nav-btn{
-
-padding:14px 28px;
-
-border:none;
-
-border-radius:14px;
-
-background:linear-gradient(90deg,#2563eb,#7c3aed);
-
-color:white;
-
-font-weight:700;
-
-font-size:15px;
-
-box-shadow:0 15px 35px rgba(37,99,235,.35);
+  .nav-btn {
+    padding: 9px 12px;
+    font-size: 11px;
+  }
 
 }
