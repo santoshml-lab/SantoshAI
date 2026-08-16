@@ -62,7 +62,7 @@ live:"https://neet-urur.vercel.app/",
 github:"https://github.com/santoshml-lab/Neet"
 
 
-];
+};
   {
   image: "/images/supportflow.png",
   icon: "🛟",
